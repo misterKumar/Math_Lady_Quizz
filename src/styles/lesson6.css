@@ -1,0 +1,27 @@
+.lesson6 .mid-part .mid_left {
+    width: 80%;
+    gap: 20px;
+}
+
+
+.lesson6 input {
+    cursor: pointer;
+}
+
+
+
+.lesson6 .mid_left label {
+    display: flex;
+    gap: 10px;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media (max-width:640px) {
+    .lesson6 .mid-part .mid_left {
+        width: 100%;
+    }
+}

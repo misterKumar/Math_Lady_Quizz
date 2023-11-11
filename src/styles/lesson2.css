@@ -1,0 +1,38 @@
+.lesson2 .mid-part .mid_left {
+    width: 80%;
+   
+    gap: 20px;
+}
+
+.options {
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.fillBlnkquestion {
+   
+    font-size: 20px;
+
+}
+
+.fillBlnkquestion input {
+    padding: 5px 0px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 80px;
+    border-bottom: 2px solid rgb(179, 178, 177);
+    color: rgb(197, 194, 194);
+}
+
+@media (max-width:640px) {
+ 
+.lesson2 .mid-part .mid_left {
+    width: 100%;
+    
+}
+}
+
+
